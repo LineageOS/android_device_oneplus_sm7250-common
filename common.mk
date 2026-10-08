@@ -37,7 +37,7 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth.audio-impl \
     android.hardware.soundtrigger@2.3-impl \
     audio.bluetooth.default \
-    audio.primary.kona \
+    audio.primary.lito \
     audio.r_submix.default \
     audio.usb.default \
     audio_amplifier.qcom \

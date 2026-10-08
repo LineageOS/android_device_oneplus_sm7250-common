@@ -49,7 +49,7 @@ BOARD_SUPPORTS_SOUND_TRIGGER := true
 BOARD_USES_ALSA_AUDIO := true
 
 # Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := kona
+TARGET_BOOTLOADER_BOARD_NAME := lito
 
 # Display
 TARGET_GRALLOC_HANDLE_HAS_RESERVED_SIZE := true
@@ -90,11 +90,11 @@ BOARD_KERNEL_SEPARATED_DTBO := true
 BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOT_HEADER_VERSION)
 BOARD_RAMDISK_USE_LZ4 := true
 TARGET_KERNEL_SOURCE := kernel/oneplus/sm7250
-TARGET_KERNEL_CONFIG := vendor/kona-perf_defconfig vendor/oplus.config
+TARGET_KERNEL_CONFIG := vendor/lito-perf_defconfig vendor/oplus.config
 
 # Platform
 BOARD_USES_QCOM_HARDWARE := true
-TARGET_BOARD_PLATFORM := kona
+TARGET_BOARD_PLATFORM := lito
 
 # Metadata
 BOARD_USES_METADATA_PARTITION := true
