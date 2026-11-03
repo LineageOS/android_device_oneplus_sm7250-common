@@ -855,7 +855,6 @@ vendor/lib64/libsnsapi.so
 vendor/lib64/libsnsdiaglog.so
 vendor/lib64/libssc.so
 vendor/lib64/libssc_default_listener.so
-vendor/lib64/sensors.ssc.so|864c8fa187fea8b0c3f85d4e5993e1fdabb8d17f|c5eb899d112f714bac36f6964770b2f364f902bf
 vendor/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so
 
 # Sensor Configs
