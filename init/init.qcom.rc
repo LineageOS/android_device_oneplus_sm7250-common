@@ -252,6 +252,7 @@ on post-fs-data
 
     # Create directory for radio
     mkdir /data/vendor/radio 0770 system radio
+    mkdir /data/vendor/ril 0770 radio radio
     rm /data/vendor/radio/shmbus
 
     # Create directory for modem_config
